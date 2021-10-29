@@ -79,16 +79,16 @@
         width: 62.5% !important;
         height: 80vh;}*/
 
-.container-fluid{
-    background-color: aqua;
-    margin-top:0%;
-}
-.container-carousel-grande {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
+    .container-fluid{
+        background-color: aqua;
+        margin-top:0%;
+    }
+    .container-carousel-grande {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 } 
     
 
