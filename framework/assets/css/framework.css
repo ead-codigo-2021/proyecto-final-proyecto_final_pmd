@@ -97,7 +97,7 @@
         width: 70%;
         overflow:hidden;
        }
-/*Carrusel pequeño*/ 
+/*Carrusel pequeño*/
 .container-fluid-pequeño{
     background-color: white;
     margin-top: 4rem;
@@ -109,14 +109,9 @@
     height: 50%;
     margin-left: auto;
     margin-right: auto;
-}
-.carousel-item img {
-    height: 30%;
-    width: 50%;
-    overflow:hidden;
-   }
+ }    
 /*Tarjetas*/
-.container-tarjetas {
+.container-tarjetas{
     margin: 0 auto;
     padding-top: 2rem;
     max-width: 1000px;
@@ -191,9 +186,17 @@
 .container-footer{
     margin-top: 4rem;
     margin-bottom: 0;
-    width: 100%;
-    height: 500px;
+
     background-color: var(--color-magenta);
+
+}
+.container-footer p{
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
 }
 
 
