@@ -219,6 +219,29 @@
     grid-column: 3;
     grid-row: 1;
 }
+/* Inicio: Video Responsive */
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	}
+.container-texto-video{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+    
+/*Final: Video Responsive */
 
 /*fin media escritorio*/
 /*media télefono*/ 
